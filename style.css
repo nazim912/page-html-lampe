@@ -1,0 +1,84 @@
+html,body, *{
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    height: 100vh;
+
+}
+
+h3,h4,h5,h6{
+    color: #a3bec1;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    display:block;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin-right:auto;
+    margin-left:auto;    
+}
+
+.carre1{
+    width: 50%;
+    height: 112.599vh;
+    background-image:url("./Images/photo-gauche.png");
+    background-size: cover;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-top: 500px;
+}
+
+button{
+    border-radius: 30px;
+    background-color: #ffffff ;
+    color: #181818;
+    font-family: 'Lato medium';
+    font-size: 22px;
+    border: none;
+    padding: 20px 40px;
+    display: block;
+}
+button:hover{
+    color: aqua;
+}
+
+.carre2{
+    width:50%;
+    height: 130vh;
+    background-image:url("./Images/photo-droite.png");
+    background-size: cover;
+    padding-top: 110px;
+    color: #ffffff;
+    padding-left: 40px;
+    padding-top: 400px;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 56px;
+}
+
+.ligne1{
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.ligne2{
+    display: flex;
+}
